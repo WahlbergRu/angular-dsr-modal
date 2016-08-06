@@ -4,6 +4,7 @@ angular drag'n'drop, sticking and resizable modal
 
 Name         | Status
 ---          | ---
+modal        | false
 drag'n'drop  | false
 sticking     | false
 resizable    | false

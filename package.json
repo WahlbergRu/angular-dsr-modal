@@ -22,13 +22,14 @@
     "prestart": "npm install",
     "start": "node server",
     "prebuild-css": "npm install",
-    "build-css": "node-sass --include-path app/assets/scss app/assets/scss/build.scss app/app.css",
+    "build-css": "node-sass --include-path src src/style.scss src/style.css",
     "prewatch-css": "npm run build-css",
-    "watch-css": "node-sass -w --include-path app/assets/scss app/assets/scss/build.scss app/app.css",
+    "watch-css": "node-sass -w --include-path src src/style.scss src/style.css",
     "bower-install": "bower install",
     "postinstall": "npm run bower-install"
   },
   "dependencies": {
+    "bourbon": "^4.2.7",
     "clone": "^1.0.2",
     "spa-server": "^0.1.0"
   }
