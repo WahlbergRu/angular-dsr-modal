@@ -1,0 +1,24 @@
+{
+  "name": "angular-tim.zz",
+  "version": "0.0.0",
+  "authors": [
+    "NEAllin <NEAllin@1cbit.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular": "~1.5.8"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
+  }
+}

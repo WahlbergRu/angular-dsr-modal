@@ -1,0 +1,35 @@
+{
+  "name": "angular-dsr-modal",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/JNSTeam/tim-angular.git"
+  },
+  "keywords": [
+    "TIM"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular-ui-tree": "^2.14.0",
+    "node-sass": "^3.4.1",
+    "nodemon": "^1.8.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server",
+    "prebuild-css": "npm install",
+    "build-css": "node-sass --include-path app/assets/scss app/assets/scss/build.scss app/app.css",
+    "prewatch-css": "npm run build-css",
+    "watch-css": "node-sass -w --include-path app/assets/scss app/assets/scss/build.scss app/app.css",
+    "bower-install": "bower install",
+    "postinstall": "npm run bower-install"
+  },
+  "dependencies": {
+    "clone": "^1.0.2",
+    "spa-server": "^0.1.0"
+  }
+}
