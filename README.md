@@ -8,6 +8,7 @@ modal        | false
 drag'n'drop  | false
 sticking     | false
 resizable    | false
+modal router | false
 
 ### How to start
 
