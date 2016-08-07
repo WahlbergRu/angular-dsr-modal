@@ -12,3 +12,23 @@ $font-stack-system: 'Arial';
 @import "../bower_components/bitters/core/tables";
 @import "../bower_components/bitters/core/typography";
 
+// bootstrap
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+//script
+.modal-dsr{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  background: grey;
+  top: 0;
+  left: 0;
+}
