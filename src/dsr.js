@@ -176,7 +176,7 @@ angular
 
 
 
-            //$document.on('mousemove', mousemove);
+            element.on('mousemove', functionSelection);
             $document.on('mousedown',   modalFunction);
             $document.on('mouseover',   functionSelection);
             $document.on('mouseleave',  functionSelection);
